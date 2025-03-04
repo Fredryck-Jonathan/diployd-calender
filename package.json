@@ -1,6 +1,9 @@
 {
   "name": "diployd-calender",
   "version": "0.2.0",
+  "description": "An interactive calendar where you can select a date and retrieve it in ISO format.",
+  "keywords": ["calendar", "date"],
+  "author": "Jonathan Fredryck <fredryckjonathan@gmail.com>",
   "main": "src/lib/index.jsx",
   "module": "src/lib/index.jsx",
   "files": [

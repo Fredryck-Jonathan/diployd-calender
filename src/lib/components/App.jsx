@@ -118,6 +118,12 @@ function Calender(props) {
     }
 
 
+    /**
+     * Change le mois actuel grace à un evenement onClick.
+     * Met à jour les informations de la date avec un format "AAAA-MM-".
+     *
+     * @param {string} action - L'action à effectuer, "+" pour le mois suivant, "-" pour le mois précédent.
+     */
     const changeMonth = (e) => {
         e.preventDefault();
         const dataYear = e.currentTarget.getAttribute('data-year');
@@ -134,7 +140,7 @@ function Calender(props) {
 
     /**
      * Change le mois actuel en fonction de l'action donnée ("+" pour le mois suivant, "-" pour le mois précédent).
-     * Mette à jour les informations de la date avec un format "AAAA-MM-".
+     * Met à jour les informations de la date avec un format "AAAA-MM-".
      *
      * @param {string} action - L'action à effectuer, "+" pour le mois suivant, "-" pour le mois précédent.
      */
